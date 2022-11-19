@@ -9,9 +9,9 @@ A portfolio project attempting to improve the UI and understand the backend of v
 - [x] Share Repo
 - [ ] Wireframe
 - [ ] Sitemap
-- [ ] Trello Workspace
-- [ ] Brainstorm UI 
-- [ ] Coding Proper
+- [x] Trello Workspace
+- [x] Brainstorm UI 
+- [x] Coding Proper
 
 --------------
 
