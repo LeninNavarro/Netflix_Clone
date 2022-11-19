@@ -3,12 +3,14 @@ import reactLogo from './assets/react.svg'
 import vitesvg from './assets/vite.svg'
 import './App.css'
 import Features from './components/features'
+import Hero from './components/hero'
 
 function App() {
 
   return (
     <div className="App">
-        <Features />
+      <Hero />
+      <Features />
     </div>
   )
 }
