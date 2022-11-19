@@ -1,19 +1,20 @@
 import React from "react";
 import tv from '../assets/tvector.svg';
+import watching from '../assets/watching.webp';
 import videotrailer from '../assets/sampletrailer.mp4';
 import pcropped from '../assets/phonecropped2.png';
 import posteradam from '../assets/poster.webp';
 
 export default function Features () {
     return (
-        <div className=" ">
-         <div className="flex flex-col lg:flex-row gap-10 lg:gap-0 justify-evenly my-10 ">
+        <div className="">
+         <div className="flex flex-col lg:flex-row gap-10 lg:gap-0 justify-evenly pt-32 relative bg-red-600 z-30">
             <div className="flex flex-col gap-5 max-w-xl my-auto mx-auto lg:mx-0 p-7 md:p-0">
                 <p className="text-4xl md:text-5xl font-medium tracking-wide text-center lg:text-start">Enjoy your TV.</p> 
                 <p className="text-lg md:text-2xl tracking-wide text-center lg:text-start">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p> 
             </div>
-            <div className="max-w-[50%] relative flex mx-auto lg:mx-0">
-                <img className="w-full shadow-current" src={tv} alt="" />
+            <div className="w-[50%] lg:w-[36%] relative flex mx-auto lg:mx-0 ">
+                <img className="max-w-96 shadow-current" src={tv} alt="" />
                 <div>
                 <video autoPlay 
                muted 
@@ -33,14 +34,14 @@ export default function Features () {
 
 
 
-         <div className="flex flex-col-reverse lg:flex-row gap-10 lg:gap-0 justify-evenly mt-10 ">
+         <div className="flex flex-col-reverse lg:flex-row gap-10 lg:gap-0 justify-evenly relative bg-red-600 z-30">
          <div className="max-w-[100%] relative flex mx-auto lg:mx-0 ">
-                <img className="mx-auto max-w-[40%] shadow-current" src={pcropped} alt="" />
-                <div className="absolute flex bg-slate-800 max-w-[40%] rounded-md left-[30%] top-[68%]">
-                <img className="max-w-[15%] m-2" src={posteradam} alt="" />
+                <img className="mx-auto max-w-[50%] shadow-current" src={pcropped} alt="" />
+                <div className="absolute flex bg-slate-800 max-w-[55%] rounded-md left-[22%] top-[60%]">
+                <img className="max-w-[20%] m-2" src={posteradam} alt="" />
                 <div className="flex-col my-auto">
                 <p>Black Adam</p>
-                <p className="text-xs">Downloading...</p>
+                <p className="text-xs text-blue-500">Downloading...</p>
                 </div>
                 </div>
             </div>
@@ -50,6 +51,54 @@ export default function Features () {
             </div>
             
          </div>
+
+
+
+
+         <div className="flex flex-col lg:flex-row gap-10 lg:gap-0 justify-evenly relative bg-red-600 z-30">
+            <div className="flex flex-col gap-5 max-w-xl my-auto mx-auto lg:mx-0 p-7 md:p-0">
+                <p className="text-4xl md:text-5xl font-medium tracking-wide text-center lg:text-start">Watch everywhere.</p> 
+                <p className="text-lg md:text-2xl tracking-wide text-center lg:text-start">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p> 
+            </div>
+            <div className="max-w-[70%] lg:max-w-[40%] flex mx-auto lg:mx-0 rounded-lg shadow-current ">
+                <img className="w-full shadow-inner mx-auto rounded-lg lg:rounded-3xl" src={watching} alt="" />
+            </div>
+         </div>
+
+
+
+
+
+
+         <div className="flex flex-col-reverse lg:flex-row gap-10 lg:gap-0 justify-evenly relative bg-red-600 z-30">
+         <div className="max-w-[100%] relative flex mx-auto lg:mx-0 ">
+                <img className="mx-auto max-w-[50%] shadow-current" src={pcropped} alt="" />
+                <div className="absolute flex bg-slate-800 max-w-[55%] rounded-md left-[22%] top-[60%]">
+                <img className="max-w-[20%] m-2" src={posteradam} alt="" />
+                <div className="flex-col my-auto">
+                <p>Black Adam</p>
+                <p className="text-xs text-blue-500">Downloading...</p>
+                </div>
+                </div>
+            </div>
+            <div className="flex flex-col gap-5 max-w-xl my-auto mx-auto lg:mx-0 p-7 md:p-0">
+                <p className="text-4xl md:text-5xl font-medium tracking-wide text-center lg:text-end">Create profiles for kids.</p> 
+                <p className="text-lg md:text-2xl tracking-wide text-center lg:text-end">Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p> 
+            </div>
+
+
+                </div>
+
+                
+                <div className="h-[450px] bg-white z-10 relative"></div>
+
+
+
+
+
+
+
+
         </div>
     )
 }
