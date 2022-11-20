@@ -6,9 +6,14 @@ import pcropped from '../assets/phonecropped2.png';
 import posteradam from '../assets/poster.webp';
 
 export default function Features () {
+
+
+
+
+    
     return (
         <div className="">
-         <div className="flex flex-col lg:flex-row gap-10 lg:gap-0 justify-evenly pt-32 relative bg-red-600 z-30">
+         <div className="flex flex-col lg:flex-row gap-10 lg:gap-0 justify-evenly pt-32 relative bg-red-600 z-10">
             <div className="flex flex-col gap-5 max-w-xl my-auto mx-auto lg:mx-0 p-7 md:p-0">
                 <p className="text-4xl md:text-5xl font-medium tracking-wide text-center lg:text-start">Enjoy your TV.</p> 
                 <p className="text-lg md:text-2xl tracking-wide text-center lg:text-start">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p> 
@@ -90,7 +95,7 @@ export default function Features () {
                 </div>
 
                 
-                <div className="h-[450px] bg-white z-10 relative"></div>
+                <div className="h-[450px] bg-white -z-0 relative"></div>
 
 
 

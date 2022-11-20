@@ -12,8 +12,7 @@ function App() {
     <div className="App">
       <Hero />
       <Features />
-        <Features />
-        <Footer />
+      <Footer />
     </div>
   )
 }

@@ -5,7 +5,7 @@ export default function Footer () {
     return (
         <div className=" ">
              
-             <div className="z-20 flex flex-col inset-0 inset-y-0 top-[350px] bg-white fixed  bg-opacity-90 w-[100%] text-red-800">
+             <div className="z-0 flex flex-col inset-0 inset-y-0 top-[350px] bg-white fixed  bg-opacity-90 w-[100%] text-red-800">
                 <div className="flex flex-col mx-auto">  
                     <p className="text-start my-10">Questions? Contact us.</p>
                     <div className="flex lg:flex-row flex-wrap gap-16 lg:gap-32 leading-9">
