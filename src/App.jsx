@@ -5,6 +5,7 @@ import './App.css'
 import Features from './components/features'
 import Hero from './components/hero'
 import Footer from './components/footer'
+import FAQs from './components/faqs'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <Hero />
       <Features />
+      <FAQs/>
       <Footer />
     </div>
   )

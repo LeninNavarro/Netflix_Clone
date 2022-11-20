@@ -94,12 +94,6 @@ export default function Features () {
 
                 </div>
 
-                
-                <div className="h-[450px] bg-white -z-0 relative"></div>
-
-
-
-
 
 
 
