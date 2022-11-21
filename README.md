@@ -16,7 +16,7 @@ A portfolio project attempting to imitate and/or improve the UI and understand t
 --------------
 
 #### Updates:
-++ Added navbar and hero page components 
+++ Added navbar and hero page components
 -- (unfinished, confused with css flex & grid usage, text overlay on video is still unresolved)
 
 ++ Knows a way to automate the plan with FAQs with .map() 

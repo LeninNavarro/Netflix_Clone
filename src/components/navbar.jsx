@@ -10,13 +10,13 @@ export default function Nav() {
                         <div className="nav-bar-left flex items-center space-w-8">
                             <div className="nav-bar-left">
                                 <a href="#">
-                                                                                        <img src={logo} className="w-10 bg-white rounded-md" alt="logo"></img>
+                                    <img src={logo} className="w-10 bg-white rounded-md" alt="logo"></img>
                                                                                        
                                 </a>
                             </div>
 
 
-                            <div className="my-auto md:block hidden ">
+                            <div className="my-auto justify-evenly md:block hidden ">
                                 <a href="#">Updates</a>
                                 <a href="#">New Shows</a>
                                 <a href="#">Random Suggestion</a>
