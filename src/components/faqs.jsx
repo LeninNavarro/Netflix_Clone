@@ -6,23 +6,24 @@ import faqs from "../data/faqs";
 export default function FAQs () {
     return (
         <>
-            <div className="relative z-10 bg-red-700 h-screen">
+            <div className="relative z-10 bg-red-700">
                 <p className="text-6xl pb-16 pt-28 font-medium">Frequently Asked Questions</p>
-                <div className="flex flex-col rounded-md border-2 border-white w-80 align-items-center">
-                    <div className="grid grid-cols-1">
+                <div className="flex flex-col align-items-center">
+                    
                         {faqs.map(faq=>(
                             <FaqItem
-                            query={faqs.query}
-                            answer={faqs.answer}
+                            query={faq.query}
+                            answer={faq.answer}
+                            className=''
                             />
                         ))}
-                    </div>
+                
                 </div>
             </div>
 
             
                 
-            <div className="h-[450px] bg-white -z-0 relative"></div>
+        
 
 
 

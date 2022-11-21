@@ -4,16 +4,18 @@ import { useState } from "react";
 
 export default function FaqItem({query, answer}){
     return (
-        <div>
-            <div className="pb-3 border-3 border-white ">
+        <div className="border-2 border-white rounded-tr-xl rounded-bl-xl overflow-hidden mb-2">
+            <div className='text-xl'>
                 {query}
-            </div>
-            <div>
-                {
-                    answer.map(item=>
-                        <span className="pb-2">{item}</span>
+            
+                <div className="flex flex-wrap gap-2 flex-row items-center justify-center text-normal md:text-sm">
+                    {
+                        answer.map(item=>
+                            <span className="block font-medium mx-3 py-1">{item}</span>
                         )
-                }
+                            
+                    }
+                </div>
             </div>
         </div>
     )
