@@ -1,25 +1,23 @@
 import React from "react";
 import plus from '../assets/plus.png'
+import FaqItem from "./faqsItem";
+import faqs from "../data/faqs";
 
 export default function FAQs () {
     return (
         <>
-            <div className="relative z-10 bg-red-700">
+            <div className="relative z-10 bg-red-700 h-screen">
                 <p className="text-6xl pb-16 pt-28 font-medium">Frequently Asked Questions</p>
-                <ul className="pb-28">
-                    <li className="flex justify-between bg-red-600 border border-red-900 rounded-lg max-w-[60%] mx-auto px-5 mb-5"><button className="my-2 text-3xl text-start">What is Netflix</button>
-                    <img className="max-w-[5%]" src={plus} alt="" /></li>
-                    <li className="flex justify-between bg-red-600 border border-red-900 rounded-lg max-w-[60%] mx-auto px-5 mb-5"><button className="my-2 text-3xl text-start">How much does Netflix costs?</button>
-                    <img className="max-w-[5%]" src={plus} alt="" /></li>
-                    <li className="flex justify-between bg-red-600 border border-red-900 rounded-lg max-w-[60%] mx-auto px-5 mb-5"><button className="my-2 text-3xl text-start">Where can I watch Netflix?</button>
-                    <img className="max-w-[5%]" src={plus} alt="" /></li>
-                    <li className="flex justify-between bg-red-600 border border-red-900 rounded-lg max-w-[60%] mx-auto px-5 mb-5"><button className="my-2 text-3xl text-start">How do I cancel?</button>
-                    <img className="max-w-[5%]" src={plus} alt="" /></li>
-                    <li className="flex justify-between bg-red-600 border border-red-900 rounded-lg max-w-[60%] mx-auto px-5 mb-5"><button className="my-2 text-3xl text-start">What can I watch on Netflix?</button>
-                    <img className="max-w-[5%]" src={plus} alt="" /></li>
-                    <li className="flex justify-between bg-red-600 border border-red-900 rounded-lg max-w-[60%] mx-auto px-5"><button className="my-2 text-3xl text-start">Is Netflix good for kids?</button>
-                    <img className="max-w-[5%]" src={plus} alt="" /></li>
-                </ul>
+                <div className="flex flex-col rounded-md border-2 border-white w-80 align-items-center">
+                    <div className="grid grid-cols-1">
+                        {faqs.map(faq=>(
+                            <FaqItem
+                            query={faqs.query}
+                            answer={faqs.answer}
+                            />
+                        ))}
+                    </div>
+                </div>
             </div>
 
             
@@ -33,7 +31,10 @@ export default function FAQs () {
     )
 }
 
-// import React, {useEffect, useState} from "react";
+
+
+
+//// import React, {useEffect, useState} from "react";
 // import plus from '../assets/multt.png'
 
 // export default function FAQs () {
