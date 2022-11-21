@@ -4,6 +4,7 @@ import watching from '../assets/watching.webp';
 import videotrailer from '../assets/sampletrailer.mp4';
 import pcropped from '../assets/phonecropped2.png';
 import posteradam from '../assets/poster.webp';
+import giphyd from '../assets/giphyd.gif';
 
 export default function Features () {
 
@@ -45,8 +46,11 @@ export default function Features () {
                 <div className="absolute flex bg-slate-800 max-w-[55%] rounded-md left-[22%] top-[60%]">
                 <img className="max-w-[20%] m-2" src={posteradam} alt="" />
                 <div className="flex-col my-auto">
-                <p>Black Adam</p>
-                <p className="text-xs text-blue-500">Downloading...</p>
+                <p className="text-xs sm:text-base">Black Adam</p>
+                <p className="text-[60%] text-blue-500">Downloading...</p>
+                </div>
+                <div className="w-7 md:w-7 my-auto relative ml-24 ">
+                    <img className="filter hue-rotate-180" src={giphyd} alt="" />
                 </div>
                 </div>
             </div>
@@ -81,8 +85,11 @@ export default function Features () {
                 <div className="absolute flex bg-slate-800 max-w-[55%] rounded-md left-[22%] top-[60%]">
                 <img className="max-w-[20%] m-2" src={posteradam} alt="" />
                 <div className="flex-col my-auto">
-                <p>Black Adam</p>
-                <p className="text-xs text-blue-500">Downloading...</p>
+                <p className="text-xs sm:text-base">Black Adam</p>
+                <p className="text-[60%] text-blue-500">Downloading...</p>
+                </div>
+                <div className="w-7 md:w-7 my-auto relative ml-24 ">
+                    <img className="filter hue-rotate-180" src={giphyd} alt="" />
                 </div>
                 </div>
             </div>
