@@ -22,3 +22,8 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.question-one {
+  margin-right: auto;
+  margin-left: auto;
+}
