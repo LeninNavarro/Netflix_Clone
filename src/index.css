@@ -32,9 +32,53 @@ body {
 .faq-btn-container.activate {
   width: 50%;
 }
+ 
+.faq-btn-container2 {
+  width: 100%;
+  height: auto;
+  transition: width .2s;
+}
 
-@media (max-width: 1023px) {
-  .activate {
-    width: 100%;
-  }
+.faq-btn-container2.activate2 {
+  width: 50%;
+}
+ 
+.faq-btn-container3 {
+  width: 100%;
+  height: auto;
+  transition: width .2s;
+}
+
+.faq-btn-container3.activate3 {
+  width: 50%;
+}
+ 
+.faq-btn-container4 {
+  width: 100%;
+  height: auto;
+  transition: width .2s;
+}
+
+.faq-btn-container4.activate4 {
+  width: 50%;
+}
+ 
+.faq-btn-container5 {
+  width: 100%;
+  height: auto;
+  transition: width .2s;
+}
+
+.faq-btn-container5.activate5 {
+  width: 50%;
+}
+ 
+.faq-btn-container6 {
+  width: 100%;
+  height: auto;
+  transition: width .2s;
+}
+
+.faq-btn-container6.activate6 {
+  width: 50%;
 }

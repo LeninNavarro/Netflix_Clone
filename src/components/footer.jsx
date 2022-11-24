@@ -5,10 +5,10 @@ export default function Footer () {
     return (
         <div className=" ">
              
-             <div className="z-0 flex flex-col inset-0 inset-y-0 top-[350px] bg-white fixed  bg-opacity-90 w-[100%] text-red-800">
-                <div className="flex flex-col mx-auto">  
+             <div className="z-0 flex flex-col inset-0 inset-y-0 top-[200px] sm:top-[310px] lg:top-[350px] bg-white fixed  bg-opacity-90 w-[100%] text-red-800">
+                <div className="flex flex-col mx-auto text-xs lg:text-base items-center lg:items-baseline">  
                     <p className="text-start my-10">Questions? Contact us.</p>
-                    <div className="flex lg:flex-row flex-wrap gap-16 lg:gap-32 leading-9">
+                    <div className="flex lg:flex-row flex-wrap gap-16 lg:gap-32 leading-5 lg:leading-9 ml-10 lg:ml-0">
                     <div>
                         <p>FAQ</p>
                         <p>Investor Relations</p>
