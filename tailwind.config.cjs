@@ -10,7 +10,8 @@ module.exports = {
     fadeIn: "fadeIn .2s ease-in forwards",
     shake: "shake 0.82s cubic-bezier(.36,.07,.19,.97) forwards",
     lefttoright: "lefttoright .2s ease-in forwards",
-    righttoleft: "righttoleft .2s ease-in forwards"
+    righttoleft: "righttoleft .2s ease-in forwards",
+    righttoLeftHalf: "righttoleft .9s ease-in-out forwards"
   },
   animationDelay: {
       100: "100ms",
@@ -48,6 +49,10 @@ module.exports = {
     righttoleft: {
       "0%": {transform: 'translateX(100%)'},
       "100%": {transform: 'translateX(0%)'}
+    },
+    righttoLeftHalf: {
+      "0%": {transform: 'translateX(50%)'},
+      "100%": {transform: 'translateX(50%)'}
     }
   }
     },

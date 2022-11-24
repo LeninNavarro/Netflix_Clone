@@ -23,7 +23,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.question-one {
-  margin-right: auto;
-  margin-left: auto;
+.faq-btn-container {
+  width: 100%;
+  height: auto;
+  transition: width .2s;
+}
+
+.faq-btn-container.activate {
+  width: 50%;
+}
+
+@media (max-width: 1023px) {
+  .activate {
+    width: 100%;
+  }
 }
